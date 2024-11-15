@@ -7,6 +7,7 @@
 [![Windows platform](https://img.shields.io/badge/platform-windows--64-orange.svg)](https://www.microsoft.com/en-us/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)
+[![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
 
 ## Overview
 
@@ -31,7 +32,7 @@ It will take a while to download isaacsim
 
 and run the demo with:
 ```bash
-pixi run demo
+pixi run demo-train
 ```
 
 Or you can follow the official instructions 
