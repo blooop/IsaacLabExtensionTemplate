@@ -8,7 +8,7 @@ version = "0.1.0"
 
 [tasks]
 #Environment Tasks
-setup ="sudo apt install -y cmake build-essential; ./IsaacLab/isaaclab.sh --install; python -m pip install -e exts/ext_template"
+setup ="sudo apt install -y cmake build-essential; git submodule update --init; ./IsaacLab/isaaclab.sh --install; python -m pip install -e exts/ext_template"
 
 #Docker Tasks
 build-docker-isaac-lab-base="python ./IsaacLab/docker/container.py start"
